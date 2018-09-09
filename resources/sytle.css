@@ -1,0 +1,89 @@
+html {
+  font-family: helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 1rem;
+  width: 100%;
+  z-index: 4;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+  width: 960px;
+  height: auto;
+}
+
+.bedrijf {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.bedrijf img {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+.navigatie {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigatie span {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+/* SECTION 1 */
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  margin: 0;
+}
+
+.container-section1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 960px;
+  height: auto;
+}
+
+.titel {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 2rem;
+  background-color: white
+}
+
+/* SECTION 2 */
